@@ -1,5 +1,3 @@
-console.log('see this!')
-
 fetch('http://puzzle.mead.io/puzzle').then((Response) => {
 
     Response.json().then((data) => {
